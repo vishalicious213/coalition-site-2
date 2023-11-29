@@ -96,6 +96,25 @@ nav a:hover {
     text-underline-offset: 6px;
 }
 
+.menu-item {
+    /* outline: 1px solid red; */
+    position: relative;
+    display: inline-block;
+}
+
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    flex-direction: column;
+}
+
+.menu-item:hover .submenu {
+    display: flex;
+    outline: 1px solid red;
+}
+
 /* BREADCRUMB */
 
 .breadcrumb {
