@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-.container {
-    max-width: 1000px;
-}
-
 .white-text {
     color: white;
 }
@@ -23,14 +19,23 @@
 /* HEADER */
 
 header {
-    display: flex;
-    justify-content: space-between;
     background-color: rgb(255, 98, 0);
     text-transform: uppercase;
     font-family: 'Bebas Neue', sans-serif;
 }
 
+.header-container {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
 #contact, #login-signup {
     display: flex;
     width: 50%;
+}
+
+#login-signup {
+    justify-content: flex-end;
 }
