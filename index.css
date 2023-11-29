@@ -162,4 +162,14 @@ h2 {
 
 input {
     width: 100%;
+    margin-bottom: .5rem;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info input {
+    width: 49%;
 }
