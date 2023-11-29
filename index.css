@@ -204,3 +204,13 @@ textarea {
 .contact-form button:hover {
     cursor: pointer;
 }
+
+#social-media {
+    display: flex;
+    margin-top: 2rem;
+}
+
+#social-media img {
+    width: 2rem;
+    margin-right: .25rem
+}
