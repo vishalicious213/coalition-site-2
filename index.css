@@ -96,8 +96,7 @@ nav a:hover {
     text-underline-offset: 6px;
 }
 
-.menu-item {
-    /* outline: 1px solid red; */
+.menu-item-container {
     position: relative;
     display: inline-block;
 }
@@ -112,7 +111,7 @@ nav a:hover {
     background-color: white;
 }
 
-.menu-item:hover .submenu {
+.menu-item-container:hover .submenu {
     display: flex;
     border: 1px solid rgb(170, 170, 170);
 }
