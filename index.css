@@ -8,11 +8,29 @@
     max-width: 1000px;
 }
 
+.white-text {
+    color: white;
+}
+
+.red-text {
+    color: rgb(190, 54, 0);
+}
+
+.left-space {
+    margin-left: .5rem;
+}
+
 /* HEADER */
 
 header {
     display: flex;
+    justify-content: space-between;
     background-color: rgb(255, 98, 0);
     text-transform: uppercase;
     font-family: 'Bebas Neue', sans-serif;
+}
+
+#contact, #login-signup {
+    display: flex;
+    width: 50%;
 }
