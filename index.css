@@ -124,4 +124,11 @@ main p {
 .contact-reach {
     display: flex;
     justify-content: space-between;
+    margin-top: 2rem;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
 }
