@@ -186,3 +186,15 @@ textarea {
 .contact-info input {
     width: 49%;
 }
+
+.contact-form button {
+    background-color: rgb(255, 98, 0);
+    color: white;
+    margin-top: 1rem;
+    padding: .5rem 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+}
