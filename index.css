@@ -32,8 +32,10 @@
     margin-left: .5rem;
 }
 
-.horizontal-pad {
+.container {
     padding: 0 .5rem;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 /* HEADER */
@@ -99,4 +101,20 @@ nav a:hover {
 .breadcrumb {
     font-family: 'Ubuntu', sans-serif;
     font-size: .75rem;
+    margin-top: 2rem;
+}
+
+/* MAIN */
+
+#main {
+    margin-top: 1.5rem;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+main p {
+    font-family: 'Ubuntu', sans-serif;
 }
