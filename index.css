@@ -157,3 +157,9 @@ h2 {
 .phone {
     margin-top: 1rem;
 }
+
+/* CONTACT FORM */
+
+input {
+    width: 100%;
+}
