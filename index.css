@@ -16,6 +16,18 @@
     color: rgb(255, 98, 0);
 }
 
+.grey-text {
+    color: rgb(170, 170, 170);
+}
+
+.black-text {
+    color: black;
+}
+
+.bold {
+    font-weight: 800;
+}
+
 .left-space {
     margin-left: .5rem;
 }
@@ -80,4 +92,11 @@ nav a:hover {
     text-decoration-color: rgb(255, 98, 0);
     text-decoration-thickness: 2.5px;
     text-underline-offset: 6px;
+}
+
+/* BREADCRUMB */
+
+.breadcrumb {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: .75rem;
 }
