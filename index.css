@@ -118,3 +118,10 @@ h1 {
 main p {
     font-family: 'Ubuntu', sans-serif;
 }
+
+/* CONTACT-REACH */
+
+.contact-reach {
+    display: flex;
+    justify-content: space-between;
+}
