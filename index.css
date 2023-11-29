@@ -12,8 +12,16 @@
     color: rgb(190, 54, 0);
 }
 
+.orange-text {
+    color: rgb(255, 98, 0);
+}
+
 .left-space {
     margin-left: .5rem;
+}
+
+.horizontal-pad {
+    padding: 0 .5rem;
 }
 
 /* HEADER */
@@ -39,4 +47,17 @@ header {
 
 #login-signup {
     justify-content: flex-end;
+}
+
+/* LOGO & NAV */
+
+#logo-nav {
+    background-color: rgb(249, 249, 249);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
 }
