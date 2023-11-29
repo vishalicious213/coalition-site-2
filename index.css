@@ -127,8 +127,19 @@ main p {
     margin-top: 2rem;
 }
 
+.contact-form, .reach-us {
+    width: 45%;
+}
+
 h2 {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-weight: 400;
+}
+
+.bold-line {
+    width: 100%;
+    height: .33rem;
+    margin-top: .33rem;
+    background-color: black;
 }
