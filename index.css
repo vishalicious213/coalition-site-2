@@ -141,5 +141,19 @@ h2 {
     width: 100%;
     height: .33rem;
     margin-top: .33rem;
+    margin-bottom: 1rem;
     background-color: black;
+}
+
+.reach-us p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .75rem;
+}
+
+.reach-us .skills-test {
+    font-size: .9rem;
+}
+
+.phone {
+    margin-top: 1rem;
 }
