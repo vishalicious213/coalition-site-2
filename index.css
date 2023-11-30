@@ -44,6 +44,7 @@ header {
     background-color: rgb(255, 98, 0);
     text-transform: uppercase;
     font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.25rem;
 }
 
 .header-container {
