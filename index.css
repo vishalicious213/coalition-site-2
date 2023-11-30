@@ -92,12 +92,21 @@ nav {
     text-decoration: none;
 }
 
+.submenu-item {
+    display: inline-block;
+    margin-bottom: .25rem;
+}
+
 .menu-item:hover {
     font-weight: 600;
     text-decoration: underline;
     text-decoration-color: rgb(255, 98, 0);
     text-decoration-thickness: 2.5px;
     text-underline-offset: 6px;
+}
+
+.submenu-item:hover {
+    font-weight: 600;
 }
 
 .menu-item-container {
@@ -112,16 +121,16 @@ nav {
     left: -50%;
 }
 
+.menu-item-container:hover .submenu-container {
+    display: flex;
+}
+
 .submenu {
     flex-direction: column;
     margin-top: 1rem;
     padding: .5rem;
     background-color: white;
     border: 1px solid rgb(170, 170, 170);
-}
-
-.menu-item-container:hover .submenu-container {
-    display: flex;
 }
 
 /* BREADCRUMB */
