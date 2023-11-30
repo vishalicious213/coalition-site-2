@@ -102,15 +102,16 @@ header {
 }
 
 .submenu-container {
+    position: absolute;
     display: none;
+    top: 100%;
+    left: 0;
 
 }
 
 .submenu {
-    position: absolute;
-    top: 100%;
-    left: 0;
     flex-direction: column;
+    margin-top: 1rem;
     padding: .5rem;
     background-color: white;
     border: 1px solid rgb(170, 170, 170);
