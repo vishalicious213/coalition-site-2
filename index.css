@@ -61,8 +61,13 @@ header {
     width: 50%;
 }
 
+#contact {
+    max-width: 13rem;
+}
+
 #login-signup {
     justify-content: flex-end;
+    max-width: 6rem;
 }
 
 /* LOGO*/
@@ -273,5 +278,6 @@ textarea {
 @media screen and (min-width: 430px) {
     #contact, #login-signup {
         flex-direction: row;
+        justify-content: space-between;
     }
 }
