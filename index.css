@@ -270,6 +270,10 @@ textarea {
     margin-right: .25rem
 }
 
+#social-media img:hover {
+    cursor: pointer;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 430px) {
