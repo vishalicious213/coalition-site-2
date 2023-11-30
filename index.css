@@ -63,7 +63,7 @@ header {
     justify-content: flex-end;
 }
 
-/* LOGO & NAV */
+/* LOGO*/
 
 #logo-nav {
     background-color: rgb(249, 249, 249);
@@ -79,9 +79,37 @@ header {
     font-size: 2.5rem;
 }
 
+/* NAV - CONTAINERS */
+
 nav {
     margin-right: 1rem;
 }
+
+.menu-item-container {
+    position: relative;
+    display: inline-block;
+}
+
+.submenu-container {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: -50%;
+}
+
+.menu-item-container:hover .submenu-container {
+    display: flex;
+}
+
+.submenu {
+    flex-direction: column;
+    margin-top: 1rem;
+    padding: .5rem;
+    background-color: white;
+    border: 1px solid rgb(170, 170, 170);
+}
+
+/* NAV - MENU ITEMS */
 
 .menu-item, .submenu-item {
     margin: 0 .25rem;
@@ -107,30 +135,6 @@ nav {
 
 .submenu-item:hover {
     font-weight: 600;
-}
-
-.menu-item-container {
-    position: relative;
-    display: inline-block;
-}
-
-.submenu-container {
-    position: absolute;
-    display: none;
-    top: 100%;
-    left: -50%;
-}
-
-.menu-item-container:hover .submenu-container {
-    display: flex;
-}
-
-.submenu {
-    flex-direction: column;
-    margin-top: 1rem;
-    padding: .5rem;
-    background-color: white;
-    border: 1px solid rgb(170, 170, 170);
 }
 
 /* BREADCRUMB */
