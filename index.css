@@ -217,6 +217,7 @@ textarea {
 
 .contact-form button:hover {
     cursor: pointer;
+    background-color: rgb(221, 86, 2);
 }
 
 /* SOCIAL MEDIA ICONS */
