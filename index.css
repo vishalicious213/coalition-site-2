@@ -93,64 +93,18 @@ header {
     font-size: 3.5rem;
 }
 
-/* NAV - CONTAINERS */
+/* NAV */
 
 nav {
-    margin-right: 1rem;
-}
-
-.menu-item-container {
-    position: relative;
-    display: inline-block;
-}
-
-.submenu-container {
-    position: absolute;
     display: none;
-    top: 100%;
-    left: -50%;
 }
 
-.menu-item-container:hover .submenu-container {
-    display: flex;
+#burger {
+    font-size: 2rem;
 }
 
-.submenu {
-    flex-direction: column;
-    margin-top: 1rem;
-    padding: 1rem .5rem;
-    background-color: white;
-    border: 1px solid rgb(170, 170, 170);
-}
-
-/* NAV - MENU ITEMS */
-
-.menu-item, .submenu-item {
-    margin: 0 .25rem;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    font-size: .9rem;
-    color: black;
-    text-decoration: none;
-    display: inline-block;
-    width: 3.25rem;
-}
-
-.submenu-item {
-    margin-bottom: .25rem;
-    width: 5.25rem;
-}
-
-.menu-item:hover {
-    font-weight: 800;
-    text-decoration: underline;
-    text-decoration-color: rgb(255, 98, 0);
-    text-decoration-thickness: 2.5px;
-    text-underline-offset: 6px;
-}
-
-.submenu-item:hover {
-    font-weight: 600;
+#burger:hover {
+    cursor: pointer;
 }
 
 /* BREADCRUMB */
@@ -300,5 +254,70 @@ textarea {
     .reach-us {
         width: 44.5%;
         margin-top: 0;
+    }
+
+    /* NAV - CONTAINERS */
+
+    #burger {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        margin-right: 1rem;
+    }
+
+    .menu-item-container {
+        position: relative;
+        display: inline-block;
+    }
+
+    .submenu-container {
+        position: absolute;
+        display: none;
+        top: 100%;
+        left: -50%;
+    }
+
+    .menu-item-container:hover .submenu-container {
+        display: flex;
+    }
+
+    .submenu {
+        flex-direction: column;
+        margin-top: 1rem;
+        padding: 1rem .5rem;
+        background-color: white;
+        border: 1px solid rgb(170, 170, 170);
+    }
+
+    /* NAV - MENU ITEMS */
+
+    .menu-item, .submenu-item {
+        margin: 0 .25rem;
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+        font-size: .9rem;
+        color: black;
+        text-decoration: none;
+        display: inline-block;
+        width: 3.25rem;
+    }
+
+    .submenu-item {
+        margin-bottom: .25rem;
+        width: 5.25rem;
+    }
+
+    .menu-item:hover {
+        font-weight: 800;
+        text-decoration: underline;
+        text-decoration-color: rgb(255, 98, 0);
+        text-decoration-thickness: 2.5px;
+        text-underline-offset: 6px;
+    }
+
+    .submenu-item:hover {
+        font-weight: 600;
     }
 }
