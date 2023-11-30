@@ -57,6 +57,7 @@ header {
 
 #contact, #login-signup {
     display: flex;
+    flex-direction: column;
     width: 50%;
 }
 
@@ -265,4 +266,12 @@ textarea {
 #social-media img {
     width: 2rem;
     margin-right: .25rem
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 430px) {
+    #contact, #login-signup {
+        flex-direction: row;
+    }
 }
