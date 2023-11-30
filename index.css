@@ -104,7 +104,7 @@ nav {
 .submenu {
     flex-direction: column;
     margin-top: 1rem;
-    padding: .5rem;
+    padding: 1rem .5rem;
     background-color: white;
     border: 1px solid rgb(170, 170, 170);
 }
@@ -123,9 +123,8 @@ nav {
 }
 
 .submenu-item {
-    /* display: inline-block; */
     margin-bottom: .25rem;
-    width: 4.5rem;
+    width: 5.25rem;
 }
 
 .menu-item:hover {
