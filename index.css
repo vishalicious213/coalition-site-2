@@ -66,7 +66,7 @@ header {
 }
 
 #login-signup {
-    justify-content: flex-end;
+    align-items: flex-end;
     max-width: 6rem;
 }
 
