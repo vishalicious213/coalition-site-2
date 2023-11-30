@@ -76,7 +76,7 @@ header {
 
 /* LOGO*/
 
-.flex-container {
+.logo-nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -265,6 +265,7 @@ textarea {
     nav {
         display: block;
         margin-right: 1rem;
+        outline: 1px solid black;
     }
 
     .menu-item-container {
