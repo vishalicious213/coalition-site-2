@@ -172,8 +172,12 @@ main p {
     margin-top: 2rem;
 }
 
-.contact-form, .reach-us {
-    width: 45%;
+.contact-form {
+    width: 47.5%;
+}
+
+.reach-us {
+    width: 44.5%;
 }
 
 h2 {
