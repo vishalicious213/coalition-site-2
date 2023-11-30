@@ -91,6 +91,7 @@ header {
 #logo {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 3.5rem;
+    margin-right: 1.5rem;
 }
 
 /* NAV */
@@ -255,7 +256,9 @@ textarea {
         width: 44.5%;
         margin-top: 0;
     }
+}
 
+@media screen and (min-width: 500px) {
     /* NAV - CONTAINERS */
 
     #burger {
@@ -265,7 +268,6 @@ textarea {
     nav {
         display: block;
         margin-right: 1rem;
-        outline: 1px solid black;
     }
 
     .menu-item-container {
