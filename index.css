@@ -66,13 +66,16 @@ header {
 
 /* LOGO*/
 
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #logo-nav {
     background-color: rgb(249, 249, 249);
     padding-top: 1rem;
     padding-bottom: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 #logo {
