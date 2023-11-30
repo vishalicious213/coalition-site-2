@@ -123,10 +123,11 @@ nav {
 .submenu-item {
     display: inline-block;
     margin-bottom: .25rem;
+    width: 4.5rem;
 }
 
 .menu-item:hover {
-    font-weight: 600;
+    font-weight: 800;
     text-decoration: underline;
     text-decoration-color: rgb(255, 98, 0);
     text-decoration-thickness: 2.5px;
