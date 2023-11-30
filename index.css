@@ -101,19 +101,23 @@ header {
     display: inline-block;
 }
 
+.submenu-container {
+    display: none;
+
+}
+
 .submenu {
     position: absolute;
     top: 100%;
     left: 0;
-    display: none;
     flex-direction: column;
     padding: .5rem;
     background-color: white;
+    border: 1px solid rgb(170, 170, 170);
 }
 
-.menu-item-container:hover .submenu {
+.menu-item-container:hover .submenu-container {
     display: flex;
-    border: 1px solid rgb(170, 170, 170);
 }
 
 /* BREADCRUMB */
