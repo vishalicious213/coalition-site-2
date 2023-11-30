@@ -177,7 +177,8 @@ main p {
 
 .contact-reach {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    /* justify-content: space-between; */
     margin-top: 3.25rem;
 }
 
@@ -279,5 +280,12 @@ textarea {
     #contact, #login-signup {
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    .contact-reach {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 3.25rem;
     }
 }
