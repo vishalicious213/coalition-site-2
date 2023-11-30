@@ -219,18 +219,53 @@ textarea {
     cursor: pointer;
 }
 
+/* SOCIAL MEDIA ICONS */
+
 #social-media {
     display: flex;
     margin-top: 3.5rem;
 }
 
-#social-media img {
+.icon {
     width: 2rem;
+    height: 2rem;
     margin-right: .25rem;
 }
 
-#social-media img:hover {
+.icon:hover {
     cursor: pointer;
+}
+
+.icon-fb {
+    background-image: url("./img/fb-grey.svg");
+}
+
+.icon-fb:hover {
+    background-image: url("./img/fb-black.svg");
+}
+
+.icon-tw {
+    background-image: url("./img/tw-grey.svg");
+}
+
+.icon-tw:hover {
+    background-image: url("./img/tw-black.svg");
+}
+
+.icon-li {
+    background-image: url("./img/li-grey.svg");
+}
+
+.icon-li:hover {
+    background-image: url("./img/li-black.svg");
+}
+
+.icon-pi {
+    background-image: url("./img/pi-grey.svg");
+}
+
+.icon-pi:hover {
+    background-image: url("./img/pi-black.svg");
 }
 
 /* MEDIA QUERIES */
